@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="proyectojb.css">
+    <title>proyecto Joaquin Berasategui</title>
+</head>
+<body>
+   
+   <div class="conteiner">
+       <h1> REGISTRO HOSPITAL </h1>
+    <h2> Ingreso de usuarios </h2>
+    
+    
+        <div id="agregarUsuario" class="btn btn-dark"> Agregar Usuario </div>
+        <div id="eliminarTodo" class="btn btn-danger"> Eliminar Todo</div>
+        <div id="altaUsuario" class="oculto m-4">
+        <form id="FormularioUsuario">
+            <input id="nombre" name="nombre" type="text" autocomplete= "off" placeholder="Nombre" >
+            <input id="apellido" name="apellido" type="text" autocomplete="off" placeholder="Apellido" >
+            <input id="dni" name="dni" type="number" autocomplete="off" placeholder="DNI" >
+            <input id="telefono" name="telefono" type="number" autocomplete="off" placeholder="Telefono" >
+            <input id="obraSocial" name="obraSocial" type="text" autocomplete="off" placeholder="Obra Social" >
+            <input type="submit" value="Agregar Usuario">
+        </form>
+
+    </div>
+    <div id="listaUsuario"></div>
+</div>
+
+    <script src="proyectojb.js"></script>
+</body>
+</html>
